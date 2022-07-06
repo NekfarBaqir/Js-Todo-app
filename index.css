@@ -1,0 +1,89 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #00C9FF, #92FE9D);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* content classes */
+.topImg{
+    display: block;
+    margin: 1rem auto;
+}
+
+.input-container{
+    display: flex;
+    width: 50%;
+    margin: 0rem auto;
+    gap: 0.4rem;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    margin:1rem auto;
+}
+.input-container input{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    color: #000;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+.input-container button{
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #00C9FF;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* todo app list contianer */
+.todo-list-container{
+    margin: 1rem auto;
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid #00C9FF;
+    border-radius: 0.5rem;
+    min-height: 400px;
+}
+
+.todo-list-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.todo-list-li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+.todo-list-li label{
+    flex-grow: 1;
+    cursor: pointer;
+}
+.todo-list-li button{
+    padding: 0.5rem;
+    border: none;
+    background: #d1350e;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+
