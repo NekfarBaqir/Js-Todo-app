@@ -81,6 +81,14 @@ body{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+.todo-list-li input[type="text"]{
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
 
 .checked{
     text-decoration: line-through;
